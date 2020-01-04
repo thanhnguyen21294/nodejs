@@ -1,8 +1,11 @@
 import React from "react";
 
-const MyFirstComponent = () => {
+const MyFirstComponent = props => {
+    const name = props.name;
+    const children = props.children;
     return (<div>
-        <div>Hello MindX</div>
+        <div>Hello MindX. I'm {name}</div>
+        {children}
         <div>NodeJS</div>
     </div>
     );

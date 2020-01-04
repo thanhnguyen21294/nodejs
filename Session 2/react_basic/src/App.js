@@ -21,7 +21,10 @@ function App() {
           Learn React
         </a>
         {React.createElement("h1", null, "HelloWorld")}
-        <MyFirstComponent />
+        <MyFirstComponent name="Thanh">
+          <p>I'm currently playing</p>
+          <p>HELLO!</p>
+          </MyFirstComponent>
       </header>
     </div>
   );
